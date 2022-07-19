@@ -1,9 +1,18 @@
-import React
-  from "react";
+import React from "react";
+// import ConditionalApp from "./ConditionalApp";
+// import CounterApp from "./CounterApp"
+// import ErrorApp from "./ErrorApp";
+// import ProductApp from "./ProductApp";
+import ShoppingCart from "./ShoppingCart";
+
 function App() {
   return (
     <div>
-      <h1>App</h1>
+      {/* <CounterApp /> */}
+      {/* <ConditionalApp /> */}
+      {/* <ErrorApp /> */}
+      {/* <ProductApp /> */}
+      <ShoppingCart />
     </div>
   );
 }
